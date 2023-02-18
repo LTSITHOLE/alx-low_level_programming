@@ -12,7 +12,7 @@ putchar(nm);
 if (nm != 57)
 {
 putchar(',');
-putchar(' ');
+putchar('$');
 }
 }
 putchar('\n');
