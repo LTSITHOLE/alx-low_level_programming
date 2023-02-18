@@ -6,16 +6,15 @@
 int main(void)
 {
 int nm;
-for (nm = 48; nm <= 58; nm++)
+for (nm = 0; nm <100; nm++)
 {
-putchar(nm);
-if (nm != 57)
+putchar(nm + '0');
+if (nm < 99)
 {
 putchar(',');
 putchar('$');
 }
 }
-putchar('\');
 putchar('\n');
 return (0);
 }
