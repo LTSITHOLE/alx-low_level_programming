@@ -1,10 +1,11 @@
+#include <stdio.h>
 /**
  * main - a program that prints the alphabet in lowercase,
  * Return: 0 Success
 */
 int main(void)
 {
-char ch;
+int ch;
 for (ch = 'z'; ch >= 'a'; ch--)
 {
 putchar(ch);
