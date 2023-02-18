@@ -18,7 +18,7 @@ if ((m != n) != o)
 {
 putchar(n);
 putchar(m);
-putchar(o)
+putchar(o);
 if (n == '7' && m == '8')
 continue;
 putchar(',');
