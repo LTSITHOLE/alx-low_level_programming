@@ -6,7 +6,7 @@
 int main(void)
 {
 int nm;
-char ch;
+int ch;
 for (nm = 0; nm <= 10; nm++)
 putchar((nm % 10) + '0');
 for (ch = 'a'; ch <= 'f'; ch++)
