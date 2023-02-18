@@ -7,20 +7,23 @@
 */
 int main(void)
 {
-int n, m;
-char ch;
+int n, m, o;
 for (n = 0; n < 9; n++)
 {
 for (m = n + 1; m < 9; m++)
 {
-if (m != n)
+for (o = d + 1; o < 9; o++)
+{
+if ((m != n) != o)
 {
 putchar(n);
 putchar(m);
-if (n == '8' && m == '9')
+putchar(o)
+if (n == '7' && m == '8')
 continue;
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
