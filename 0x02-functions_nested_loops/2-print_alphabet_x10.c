@@ -5,7 +5,7 @@
 * Return - 1 Sucess
 * on error - -1 is returned
 */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 char c;
 int x;
