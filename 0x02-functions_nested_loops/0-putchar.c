@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _putchar - writes character to stdout
+* main - writes character to stdout
 * @c -the character to print
 * Return - 1 Sucess
 * on error - -1 is returned
