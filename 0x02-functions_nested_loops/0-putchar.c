@@ -2,7 +2,7 @@
 /**
 * main - print the requested putchat characters
 * @c -the character to print
-* Return - 0 Sucess
+* Return - Always 0
 */
 int main(void)
 {
