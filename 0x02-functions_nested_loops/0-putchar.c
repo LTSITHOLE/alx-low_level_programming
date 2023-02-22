@@ -2,8 +2,7 @@
 /**
 * main - writes character to stdout
 * @c -the character to print
-* Return - 1 Sucess
-* on error - -1 is returned
+* Return - 0 Sucess
 */
 int main(void)
 {
