@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-* main - print the requested putchat characters
-* @c -the character to print
-* Return - Always 0
+ * main - the program display if random number is p,n or 0
+ * Return: 0 Success
 */
 int main(void)
 {
